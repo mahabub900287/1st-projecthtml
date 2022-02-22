@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
+
+.first-col{
+    padding: 5px;
+    margin-top:px;
+}
+.head{
+    padding:5px;
+    margin:0px;
+    text-align: center;
+    margin-left:250px;
+}
+.acound p{
+    display:inline-block;
+    padding:10px 20px;
+    font-size:15px;
+
+}
+.brand{
+    background-color: rgb(185, 209, 209);
+    height:50px;
+}
+.Logo{
+
+    background-color:white;
+    font-family:Ubuntu;
+    font-weight: 400;
+    padding: 4px 5px;
+    margin-top:5px;
+    width:30px;
+}
+
+
+.Logo span{
+    background-color: black;
+    color: white;
+    padding: 2px 3px;
+    font-family: Open Sans;
+    font-weight: 900; 
+    margin-left:3px;
+}
+.navbar  img{
+    width:5%;
+    margin-left:30px;
+}
+.nav-link{
+    font-family:Dosis;
+    font-weight: 600;
+    font-size:20px;
+    padding:13px;
+    color: rgb(185, 209, 209);
+}
+#salider{
+    position: relative;
+}
+.our-slider::after{
+    content: '';
+    position: absolute;
+	width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(0, 0, 0,0.7);
+}
+.carousel-item .carousel-caption{
+    top:30%
+}
+.carousel-item .carousel-caption h5{
+    font-size:20px;
+    color: rgb(93, 174, 228);
+    font-size:Open+Sans;
+    font-weight:600;
+}
+.carousel-item .carousel-caption h3{
+    font-size:45px;
+    color: rgb(245, 248, 250);
+    font-size:Dosis;
+    font-weight:900;
+    text-align: center;
+    margin-left:10%;
+    margin-right:10%;
+    letter-spacing:6px;
+    word-spacing: 5px;
+}
+.stdy{
+    text-align: center;
+    padding-top:50px;
+    
+}
+.stdy h3{
+    font-family: Open Sans;
+    font-weight:700;
+    letter-spacing: 5px;
+    margin-bottom:30px;
+}
+.stdy1{
+    background-color: white;
+  margin-bottom: 50px;
+    margin-top: 50px;
+ position: relative;
+}
+
+.stdy1 img{
+    margin-top:50px;
+    font-size:20px
+}
+.stdy1 h4{
+    font-family: Open Sans;
+    font-weight:700;
+   
+    padding: 10px;
+}
+.stdy1 p{
+    font-family: Open Sans;
+    font-weight:300;
+    font-size:15px;
+    padding: 10px
+}
+.stdy1 button{
+   margin-bottom:55px
+}
+.stitle3:after{
+    content:'';
+    display: block;
+    height:2px;
+    width:10%;
+    background-color: black;
+    margin:auto;
+    margin-top:20px;
+}
+.stdy2{
+    position: absolute;
+}
+.stdy2 img{
+    width: 100%;
+    height:517px;
+    margin-left: 550px;
+   
+   
+}
+.counter{
+    background-image: url("assets/img/counter.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align:center;
+    padding: 20px;
+    color: #ddd;
+
+}
+.counter p{
+    font-family:  Open Sans;
+    font-weight: 700;
+    font-size: 25px;
+    display: inline;
+    
+}
+.counter i{
+    font-size:25px
+}
+.counter h2{
+    font-family:  Open Sans;
+    font-weight: 700;
+    font-size: 15px;
+}
+.sh{
+    margin-left:150px
+}
+.prc h4{
+    background-color: #999999;
+    width: 100%;
+    height: 150px;
+    padding-top:30px;
+    text-align: center;
+    position:relative;
+}
+
+.prc b{
+    font-size:22px;
+}
+.prc p{
+   margin:0 auto;
+   position:absolute;
+  height:100px;
+  width:100px;
+  background-color: rgb(235, 222, 228);
+  border-radius: 50%;
+  text-align:center;
+  padding-top:22px;
+  font-size:16px;
+  margin-top:-60px;
+  margin-left:28%;
+  box-shadow:0px 0px 20px 0px;    
+}
+.bd{
+    background-color: rgb(179, 188, 189);
+    padding-bottom:20px;
+    margin-top:-10px;
+   
+}
+.bd p{
+  padding-top:60px;
+  text-align:center;
+  font-size:19px;
+
+}
+.bd1 img{
+    width:100%;
+    height:150px;
+    padding-top:20px;
+}
+.bd1 p{
+    font-family:  Open Sans;
+    font-weight:200;
+    font-size:15px;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    padding:2px 2px;
+    margin:10px 0px;
+    text-align: center;
+}
+.slick{
+    margin-top:20px;
+}
+.slick img{
+    width: 80%;
+    height:200px;
+    margin-top:10px;
+    
+}
+#slick{
+    background-image:linear-gradient(rgba(59, 57, 57, 0.623),rgba(228, 228, 228, 0.986)), url('assets/img/claint.jpg');
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.slick .caption h2{
+ font-size:20px;
+ font-family: Open Sans;
+ font-weight:400;
+ margin:0px;
+ padding: 0 px;
+}
+.slick .caption i{
+    font-size:10px;
+    color:rgb(92, 198, 224);
+    margin:0px;
+
+}
+.slick .caption h4{
+    font-size:15px;
+    font-family: Open Sans;
+    font-weight:700;
+
+}
+.slick .caption del{
+    font-size:15px;
+    font-family: Open Sans;
+    font-weight:200;
+
+}
+.slick .caption button{
+    font-size:10px;
+    font-family: Open Sans;
+    font-weight:700;
+    margin-bottom:10px;
+}
+/*====banner-area===*/
+.banner-area h3{
+    color:  rgb(93, 174, 228);
+    font-size:3px;
+    font-family: Open Sans;
+    font-weight:900;
+    font-size:35px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+
+}
+.banner-area p{
+ 
+    font-size:17px;
+    font-family: Open Sans;
+    font-weight:300;
+    text-align:justify;
+    padding:15px;
+    box-shadow:-3px -5px rgb(173, 173, 173);
+    background-color: rgb(231, 231, 231);
+
+}
+
+.banner-area1{
+    margin-top:72px;
+    padding:5px;
+    height:240px;
+}
+.banner-area1 h4{
+    font-size:25px;
+    font-family: Open Sans;
+    font-weight:400;
+    padding:5px;
+    margin-top:25px;
+    color: white;
+}
+.banner-area1 .icon{
+    color: white;
+    text-align: left;
+    margin-top:20px;
+    margin-left:18px;
+    padding: 10px;
+    font-size: 20px;
+}
+.banner-area1 .icon i{
+    margin-right:10px;
+}
+/*====footer-area===*/
+footer{
+    background-color: rgb(14, 13, 13);
+    color: white;
+}
+footer h3{
+    font-size:28px;
+    font-family: Open Sans;
+    font-weight:700;
+    text-align: left;
+    color:  rgb(93, 174, 228);
+    margin-top:20px;
+}
+footer p{
+    font-size:16px;
+    font-family: Open Sans;
+    font-weight:300;
+    text-align: left;
+}
+footer h5{
+    font-size:18px;
+    font-family: Open Sans;
+    font-weight:700;
+    text-align: left;
+}
+footer i{
+    text-align: start;
+    font-size:18px;
+    color:  rgb(93, 174, 228);
+}
+footer p{
+    color: white;
+    font-size:18px;
+    font-family: Open Sans;
+    font-weight:300;
+    text-align:left;
+
+}
+footer a{
+    color: white;
+}
+
+/*====About.html===*/
+.about-slider-caption h3{
+    font-size:38px;
+    font-family: Open Sans;
+    font-weight:700;
+}
+.about-slider-caption p{
+    font-size:15px;
+    font-family: Open Sans;
+    font-weight:300;
+}
+.about-baner img{
+    border-radius:50%;
+}
+.about-baner .about-benar-captio h4{
+    font-size:20px;
+    font-family: Open Sans;
+    font-weight:700;
+    margin:0px;
+    margin-top:5px;
+    padding:0px; 
+}
+.about-baner .about-benar-captio p{
+    font-size:13px;
+    font-family: Open Sans;
+    font-weight:300;
+    margin:0px;
+    padding:0px;
+    margin-bottom:10px; 
+}
+.about-baner .about-benar-captio .about-baner-icon i{
+    padding:5px;
+    font-size:15px;
+}
+.about .container-fluid {
+    background-color:white;
+}
+.about-img img{
+    width:100%;
+    padding:10px;
+    margin-bottom:20px;
+
+}
+.about-img h4{
+    padding:10px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+.about-detils .about-our-poroduct{
+    background-color: rgb(223, 223, 223);
+    margin-top:95px;
+}
+.about-detils .about-our-poroduct h4{
+    font-size:28px;
+    font-family: Open Sans;
+    font-weight:300;
+    margin-top:10px; 
+    margin-left:32%;
+    margin-right:32%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-bottom:15px;
+    border-bottom:1px solid black;
+}
+.about-detils .about-our-poroduct p{
+    font-size:13px;
+    font-family:Ubuntu;
+    font-weight:300;
+    margin:10; 
+    padding:20px;
+    text-align: justify;
+}
+/*====service-area===*/
+#Service{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url("assets/img/c.jpg");
+  
+    background-repeat: no-repeat;
+    width:100%;
+    min-width:250px;
+    padding:20px;
+    margin-bottom:10px;
+}
+#Service .navbar img{
+    background-color: rgb(231, 231, 231);
+     padding:5px;
+    
+}
+#Service .navbar i{
+    color: rgb(231, 231, 231);
+}
+#Service .slider-img img{
+    width:80%;
+    height:200px;
+}
+#Service .slider-caption{
+    font-family:Ubuntu;
+    color:white;
+    margin-top: 50px;
+}
+#Service .slider-caption h3{
+    font-size:38px;
+    font-weight:700;
+}
+#Service .dropdown button{
+    margin:-15px;
+    padding:10px;
+    font-size:20px;
+    
+} 
+#Service .dropdown .dropdown-menu a{
+    padding: 5px;
+    color: black;
+
+}
